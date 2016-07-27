@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <TextView
+        android:background="@drawable/main_btn"
+        android:textColor="@color/black"
+
+        android:id="@+id/tv_name"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="이름"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/lightGray" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="연락처1"
+        android:textSize="14sp" />
+
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="연락처2"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGray" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EMAIL"
+        android:textSize="14sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGray" />
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/img_call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/call"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/img_message"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@drawable/messgae"
+            android:layout_toRightOf="@+id/img_call" />
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/img_gallery"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gallery"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/img_message" />
+        <ImageView
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/img_memo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/postit"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/img_gallery" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="수정"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/delete"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textColor="#FFF"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="닫기"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
+
+

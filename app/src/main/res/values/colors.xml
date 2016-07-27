@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#92A8D1</color>
+    <color name="colorPrimaryDark">#92A8D1</color>
+    <color name="pointPink">#F7CAC9</color>
+    <color name="pointBlue">#B7D4F5</color>
+
+
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightGray">#e0e0e0</color>
+    <color name="white">#ffffff</color>
+
+    <color name="snow">#eee9e9</color>
+
+</resources>

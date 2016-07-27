@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Trash1Activity">
+    <item android:id="@+id/action_excel" android:title="연락처 추가"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/action_share" android:title="공유"
+        android:orderInCategory="101" app:showAsAction="always" />
+</menu>
